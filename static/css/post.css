@@ -1,0 +1,42 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;  /* adjust as necessary */
+    gap: 20px; /* adjust as necessary */
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-posts {
+    grid-column: 2;
+}
+
+.blog-image {
+    display: block;
+    max-width: 50%; 
+    height: auto;
+    margin: auto; 
+}
+
+.sidebar {
+    grid-column: 1;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffd700;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #ffd700;
+    text-decoration: none;
+}
+

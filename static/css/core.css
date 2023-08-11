@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: black;  
+    color: #ffd700;  
+}
+
+.author-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.author-info img, .author-info div, .author-info p {
+    margin: 10px 0;  
+}
+
+.author-name, .author-title {
+    font-weight: bold;
+}
+
+.author-bio {
+    font-style: italic;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: gold;  
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.blog-card, .blog-card2 {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blog-card img, .blog-card2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-buttons a, .blog-buttons2 a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.small {
+    width: 50px;  
+    height: auto;  
+    justify-content: center;
+}
